@@ -1,3 +1,12 @@
+<a name="0.15.1"></a>
+# [0.15.1](https://github.com/ericwangjp/photo_view/releases/tag/v0.15.1) - 9 Apr 2025
+
+## Added
+- Add disableDoubleTap property,
+- Update outdated APIs
+
+[Changes][0.15.1]
+
 <a name="0.15.0"></a>
 # [0.15.0](https://github.com/bluefireteam/photo_view/releases/tag/0.15.0) - 17 Apr 2024
 
@@ -386,6 +395,7 @@ With this version, Photo view is stable compatible. It means that every new rele
 [Changes][0.2.1]
 
 
+[0.15.1]: https://github.com/ericwangjp/photo_view/compare/0.15.0...0.15.1
 [0.15.0]: https://github.com/bluefireteam/photo_view/compare/0.14.0...0.15.0
 [0.14.0]: https://github.com/bluefireteam/photo_view/compare/0.13.0...0.14.0
 [0.13.0]: https://github.com/bluefireteam/photo_view/compare/0.12.0...0.13.0
