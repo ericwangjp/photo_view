@@ -126,8 +126,7 @@ In the example app, we can see what can be achieved with controllers:
 
 ## Support us
 
-You can support us by becoming a patron on Patreon, any support is much appreciated.
+You can support us , any support is much appreciated.
 
-[![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/fireslime)
 
 
