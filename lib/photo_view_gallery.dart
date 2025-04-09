@@ -275,6 +275,7 @@ class _PhotoViewGalleryState extends State<PhotoViewGallery> {
             filterQuality: pageOption.filterQuality,
             basePosition: pageOption.basePosition,
             disableGestures: pageOption.disableGestures,
+            disableDoubleTap: pageOption.disableDoubleTap,
           )
         : PhotoView(
             key: ObjectKey(index),
@@ -302,6 +303,7 @@ class _PhotoViewGalleryState extends State<PhotoViewGallery> {
             filterQuality: pageOption.filterQuality,
             basePosition: pageOption.basePosition,
             disableGestures: pageOption.disableGestures,
+            disableDoubleTap: pageOption.disableDoubleTap,
             errorBuilder: pageOption.errorBuilder,
           );
 
@@ -343,6 +345,7 @@ class PhotoViewGalleryPageOptions {
     this.tightMode,
     this.filterQuality,
     this.disableGestures,
+    this.disableDoubleTap,
     this.errorBuilder,
   })  : child = null,
         childSize = null,
@@ -367,6 +370,7 @@ class PhotoViewGalleryPageOptions {
     this.tightMode,
     this.filterQuality,
     this.disableGestures,
+    this.disableDoubleTap,
   })  : errorBuilder = null,
         imageProvider = null;
 
@@ -423,6 +427,9 @@ class PhotoViewGalleryPageOptions {
 
   /// Mirror to [PhotoView.disableGestures]
   final bool? disableGestures;
+
+  /// Mirror to [PhotoView.disableDoubleTap]
+  final bool? disableDoubleTap;
 
   /// Quality levels for image filters.
   final FilterQuality? filterQuality;
